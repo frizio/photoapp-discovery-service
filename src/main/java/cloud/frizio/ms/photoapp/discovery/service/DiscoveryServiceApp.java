@@ -1,4 +1,4 @@
-package cloud.frizio.ms.photoapp.photoappdiscoveryservice;
+package cloud.frizio.ms.photoapp.discovery.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class DemoApplication {
+public class DiscoveryServiceApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(DiscoveryServiceApp.class, args);
 	}
 
 }
